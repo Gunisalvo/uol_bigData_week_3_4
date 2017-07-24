@@ -1,0 +1,30 @@
+{
+  "name": "find-universities",
+  "version": "1.0.0",
+  "description": "Swipe University Information From Wikipedia (Requirement for week 3-4 assignment UoL)",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gunisalvo/find-universities.git"
+  },
+  "keywords": [
+    "screen-scraping",
+    "big-data"
+  ],
+  "author": "Rodrigo Goncalves Leite",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gunisalvo/find-universities/issues"
+  },
+  "homepage": "https://github.com/Gunisalvo/find-universities#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "country-data": "0.0.31",
+    "csv": "^0.3.7",
+    "sync-request": "^4.1.0"
+  }
+}
